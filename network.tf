@@ -1,6 +1,4 @@
-provider "azurerm" {
-  features {}
-}
+
 
 resource "azurerm_resource_group" "workshop-rg" {
   name     = "my-resources"
